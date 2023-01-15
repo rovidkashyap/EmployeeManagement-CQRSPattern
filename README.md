@@ -6,10 +6,10 @@ Four Layers Using in this Application Domain, Application, Infrastructure and UI
 
 In Clean Architecture the source code will flow from outer to inward direction that means the dependency will flow from outer layer to inner layer, which simply means if we want to change our UI, Infrastructure layers in future than it will have no effects on COre Layers (which are Application and Domain Layer).
 
-.Net Core 3.1
-Web API
-SQL Server (not neccessary)
-Postman (For Testing API), or you can use any other tool
+.Net Core 3.1,
+Web API,
+SQL Server (not neccessary),
+Postman (For Testing API), or you can use any other tool.
 
 Just Download/Clone the application and you need to do few changes in the application such as :-
 1 - Go to appsettings.json file and change the Server name according to your system;
@@ -23,13 +23,13 @@ GETTING ALL DATA
 GETTING DATA USING SOME FILTERS
 
 Packages that required for this application are :-
-1 - MediatR
-2 - MediatR.Extensions.Microsoft.DependencyInjection
-3 - AutoMapper
-4 - AutoMapper.Extensions.Microsoft.DependencyInjection
-5 - Microsoft.EntityFrameworkCore(v 3.1)
-6 - Microsoft.EntityFrameworkCore.Relational(v 3.1)
-7 - Microsoft.EntityFrameworkCore.Design(v 3.1)
-8 - Microsoft.EntityFrameworkCore.SqlServer(v 3.1)
-9 - Microsoft.EntityFrameworkCore.Tools(v 3.1)
+1 - MediatR,
+2 - MediatR.Extensions.Microsoft.DependencyInjection,
+3 - AutoMapper,
+4 - AutoMapper.Extensions.Microsoft.DependencyInjection,
+5 - Microsoft.EntityFrameworkCore(v 3.1),
+6 - Microsoft.EntityFrameworkCore.Relational(v 3.1),
+7 - Microsoft.EntityFrameworkCore.Design(v 3.1),
+8 - Microsoft.EntityFrameworkCore.SqlServer(v 3.1),
+9 - Microsoft.EntityFrameworkCore.Tools(v 3.1).
 
