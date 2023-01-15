@@ -18,18 +18,18 @@ Just Download/Clone the application and you need to do few changes in the applic
 4 - Open the Postman or any other API Tool and enter the localserver link and execute the api
 
 This application is for education purpose so this application only contains 
-CREATING DATA using API
-GETTING ALL DATA
-GETTING DATA USING SOME FILTERS
+CREATING DATA using API,
+GETTING ALL DATA,
+GETTING DATA USING SOME FILTERS.
 
 Packages that required for this application are :-
-1 - MediatR,
-2 - MediatR.Extensions.Microsoft.DependencyInjection,
-3 - AutoMapper,
-4 - AutoMapper.Extensions.Microsoft.DependencyInjection,
-5 - Microsoft.EntityFrameworkCore(v 3.1),
-6 - Microsoft.EntityFrameworkCore.Relational(v 3.1),
-7 - Microsoft.EntityFrameworkCore.Design(v 3.1),
-8 - Microsoft.EntityFrameworkCore.SqlServer(v 3.1),
-9 - Microsoft.EntityFrameworkCore.Tools(v 3.1).
+MediatR,
+MediatR.Extensions.Microsoft.DependencyInjection,
+AutoMapper,
+AutoMapper.Extensions.Microsoft.DependencyInjection,
+Microsoft.EntityFrameworkCore(v 3.1),
+Microsoft.EntityFrameworkCore.Relational(v 3.1),
+Microsoft.EntityFrameworkCore.Design(v 3.1),
+Microsoft.EntityFrameworkCore.SqlServer(v 3.1),
+Microsoft.EntityFrameworkCore.Tools(v 3.1).
 
