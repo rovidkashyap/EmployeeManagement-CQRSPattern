@@ -18,10 +18,9 @@ namespace Employee.Infrastructure.Context
         {
             modelBuilder.Entity<Core.Entities.Employee>().HasData(
                 new Core.Entities.Employee { EmployeeId = 1, Department = "HR", FirstName = "Rovid", LastName = "Kashyap", Email = "rvd.kashyap@gmail.com", Mobile = "9760828296" },
-                new Core.Entities.Employee { EmployeeId = 2, Department = "IT", FirstName = "Dhirendra", LastName = "Varun", Email = "dhr.varun@gmail.com", Mobile = "8909371977" },
-                new Core.Entities.Employee { EmployeeId = 3, Department = "Administration", FirstName = "Shobit", LastName = "Goyal", Email = "chetan.singh@gmail.com", Mobile = "9045326030" },
-                new Core.Entities.Employee { EmployeeId = 4, Department = "HR", FirstName = "Lalit", LastName = "Gautam", Email = "lalit.gautam@gmail.com", Mobile = "9456201030" },
-                new Core.Entities.Employee { EmployeeId = 5, Department = "Sales", FirstName = "Ruchi", LastName = "Khandelwal", Email = "ruchi.cute@gmail.com", Mobile = "9965112200" });   
+                new Core.Entities.Employee { EmployeeId = 2, Department = "IT", FirstName = "Andrew", LastName = "James", Email = "andrew.james@mail.com", Mobile = "8909371977" },
+                new Core.Entities.Employee { EmployeeId = 3, Department = "Administration", FirstName = "Ferry", LastName = "Synes", Email = "ferry.synes@mail.com", Mobile = "9045326030" },
+                new Core.Entities.Employee { EmployeeId = 4, Department = "HR", FirstName = "Methew", LastName = "Berry", Email = "methew.berry@mail.com", Mobile = "9456201030" });   
 
             base.OnModelCreating(modelBuilder);
         }
